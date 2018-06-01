@@ -104,18 +104,18 @@ function loginUser(callback, username, password) {
 
 function InsertUser(user,callback) {
 
-    var sql = 'insert into user(username, password, playername, score, save) values ?';
+    var sql = 'INSERT INTO user(username, password, playername, score, save) values ?';
 
     connection.query(sql,[user],
         function (err) {
 
-            var result = '[{"success":"true"}]'
-
             if (err){
+                
                 result = '[{"success":"false"}]'
                 throw err;
-
             }
+
+            var result = '[{"success":"true"}]'
 
             callback(null, result);
         });
