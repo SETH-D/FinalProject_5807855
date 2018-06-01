@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e9824eacf5d048945a8fc5a1c04b6ae4
+timeCreated: 1527698101
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Beaufort for LOL Ja
+  fontNames:
+  - Beaufort for LOL Ja
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
