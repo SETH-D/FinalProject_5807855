@@ -4,7 +4,7 @@ var app = express();
 var util = require('util');
 
 var connection = mySql.createConnection({
-    host: 'ec2-52-221-186-20.ap-southeast-1.compute.amazonaws.com',
+    host: 'ec2-13-229-104-162.ap-southeast-1.compute.amazonaws.com',
     user: 'devteam',
     password: 'password123',
     database: 'game'
